@@ -4,6 +4,7 @@ require_relative './lib/reversi_methods'
 
 class Reversi
   include ReversiMethods
+
   QUIT_COMMANDS = %w[quit exit q].freeze
 
   def initialize
